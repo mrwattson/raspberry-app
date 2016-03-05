@@ -2,32 +2,11 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 body {
-  font-family: Verdana;
-  color: red;
-  text-align: center;
-}
+  color: #526066;
 
-
-ul {
-  margin-top: 200px;
-
-  li {
-    list-style: none;
+  ul.pricing-table-list {
+    li {
+      color: #999;
+    }
   }
-}
-
-.watts {
-  font-size: 140px;
-}
-.watts-label {
-  font-size: 48px;
-}
-.cash-sign {
-  font-size: 140px;
-}
-.cost {
-  font-size: 140px;
-}
-.hour {
-  font-size: 48px;
 }

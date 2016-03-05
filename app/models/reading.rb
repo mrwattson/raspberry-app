@@ -33,8 +33,8 @@ class Reading < ActiveRecord::Base
     "KWatts: #{kwatts}\r\n"
   end
 
-  def cost
-    kwatts * 3.833
+  def costs
+    Plan.all.map { |plan| plan.kwatts_to_cost(kwatts) }.flatten
   end
 
   def to_json
@@ -44,7 +44,7 @@ class Reading < ActiveRecord::Base
       amper: amper,
       watts: watts.to_s[0..3],
       kwatts: kwatts.to_s[0..3],
-      cost: cost.to_s[0..3]
+      costs: costs
     }.to_json
   end
 
