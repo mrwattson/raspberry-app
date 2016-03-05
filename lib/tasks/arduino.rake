@@ -12,8 +12,8 @@ namespace :arduino do
     #just read forever
     while true do
       while (read = sp.gets.chomp) do
-        Reading.create(raw: read)
-        puts read
+        reading = Reading.create(raw: read.to_f)
+        puts reading.to_s
       end
     end
 
