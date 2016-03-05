@@ -19,3 +19,868 @@ WHERE c.contype = 'f'
   AND t3.nspname = ANY (current_schemas(false))
 ORDER BY c.conname
 [0m
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"  [["created_at", "2016-03-05 04:20:38.001702"], ["updated_at", "2016-03-05 04:20:38.001702"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2016-03-05 04:20:38.007855"], ["updated_at", "2016-03-05 04:20:38.007855"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:20:38.009449"], ["updated_at", "2016-03-05 04:20:38.009449"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:20:38.011208"], ["updated_at", "2016-03-05 04:20:38.011208"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:20:38.012771"], ["updated_at", "2016-03-05 04:20:38.012771"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2016-03-05 04:20:38.013944"], ["updated_at", "2016-03-05 04:20:38.013944"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:20:38.015356"], ["updated_at", "2016-03-05 04:20:38.015356"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:20:38.016760"], ["updated_at", "2016-03-05 04:20:38.016760"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:20:38.018503"], ["updated_at", "2016-03-05 04:20:38.018503"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:20:38.040108"], ["updated_at", "2016-03-05 04:20:38.040108"]]
+  [1m[35m (0.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:20:38.072068"], ["updated_at", "2016-03-05 04:20:38.072068"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2016-03-05 04:20:44.548697"], ["updated_at", "2016-03-05 04:20:44.548697"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"  [["created_at", "2016-03-05 04:20:44.552552"], ["updated_at", "2016-03-05 04:20:44.552552"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:20:44.581102"], ["updated_at", "2016-03-05 04:20:44.581102"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:20:44.605732"], ["updated_at", "2016-03-05 04:20:44.605732"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:20:44.638503"], ["updated_at", "2016-03-05 04:20:44.638503"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.6ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"  [["created_at", "2016-03-05 04:20:44.643592"], ["updated_at", "2016-03-05 04:20:44.643592"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:20:44.675197"], ["updated_at", "2016-03-05 04:20:44.675197"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:20:44.716374"], ["updated_at", "2016-03-05 04:20:44.716374"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:20:44.754358"], ["updated_at", "2016-03-05 04:20:44.754358"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:20:44.794415"], ["updated_at", "2016-03-05 04:20:44.794415"]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:20:44.826965"], ["updated_at", "2016-03-05 04:20:44.826965"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"  [["created_at", "2016-03-05 04:20:52.184187"], ["updated_at", "2016-03-05 04:20:52.184187"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2016-03-05 04:20:52.187790"], ["updated_at", "2016-03-05 04:20:52.187790"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:20:52.216779"], ["updated_at", "2016-03-05 04:20:52.216779"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:20:52.240759"], ["updated_at", "2016-03-05 04:20:52.240759"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:20:52.274030"], ["updated_at", "2016-03-05 04:20:52.274030"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2016-03-05 04:20:52.280604"], ["updated_at", "2016-03-05 04:20:52.280604"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:20:52.314926"], ["updated_at", "2016-03-05 04:20:52.314926"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:20:52.351283"], ["updated_at", "2016-03-05 04:20:52.351283"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:20:52.388415"], ["updated_at", "2016-03-05 04:20:52.388415"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:20:52.430836"], ["updated_at", "2016-03-05 04:20:52.430836"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:20:52.462406"], ["updated_at", "2016-03-05 04:20:52.462406"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2016-03-05 04:20:59.499688"], ["updated_at", "2016-03-05 04:20:59.499688"]]
+  [1m[35m (0.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"  [["created_at", "2016-03-05 04:20:59.503136"], ["updated_at", "2016-03-05 04:20:59.503136"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:20:59.532666"], ["updated_at", "2016-03-05 04:20:59.532666"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:20:59.556778"], ["updated_at", "2016-03-05 04:20:59.556778"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:20:59.589757"], ["updated_at", "2016-03-05 04:20:59.589757"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"  [["created_at", "2016-03-05 04:20:59.596221"], ["updated_at", "2016-03-05 04:20:59.596221"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:20:59.626670"], ["updated_at", "2016-03-05 04:20:59.626670"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:20:59.667562"], ["updated_at", "2016-03-05 04:20:59.667562"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:20:59.708940"], ["updated_at", "2016-03-05 04:20:59.708940"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:20:59.745232"], ["updated_at", "2016-03-05 04:20:59.745232"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:20:59.778180"], ["updated_at", "2016-03-05 04:20:59.778180"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"  [["created_at", "2016-03-05 04:21:06.774439"], ["updated_at", "2016-03-05 04:21:06.774439"]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2016-03-05 04:21:06.777430"], ["updated_at", "2016-03-05 04:21:06.777430"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:21:06.807359"], ["updated_at", "2016-03-05 04:21:06.807359"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:21:06.831752"], ["updated_at", "2016-03-05 04:21:06.831752"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:21:06.864561"], ["updated_at", "2016-03-05 04:21:06.864561"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2016-03-05 04:21:06.872852"], ["updated_at", "2016-03-05 04:21:06.872852"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:21:06.901515"], ["updated_at", "2016-03-05 04:21:06.901515"]]
+  [1m[36m (6.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:21:06.942408"], ["updated_at", "2016-03-05 04:21:06.942408"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:21:06.983868"], ["updated_at", "2016-03-05 04:21:06.983868"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (1.8ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:21:07.026037"], ["updated_at", "2016-03-05 04:21:07.026037"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:21:07.052964"], ["updated_at", "2016-03-05 04:21:07.052964"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2016-03-05 04:21:15.909111"], ["updated_at", "2016-03-05 04:21:15.909111"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"  [["created_at", "2016-03-05 04:21:15.912792"], ["updated_at", "2016-03-05 04:21:15.912792"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (2.0ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:21:15.950824"], ["updated_at", "2016-03-05 04:21:15.950824"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:21:15.966235"], ["updated_at", "2016-03-05 04:21:15.966235"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:21:16.003353"], ["updated_at", "2016-03-05 04:21:16.003353"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"  [["created_at", "2016-03-05 04:21:16.004868"], ["updated_at", "2016-03-05 04:21:16.004868"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:21:16.045967"], ["updated_at", "2016-03-05 04:21:16.045967"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:21:16.077160"], ["updated_at", "2016-03-05 04:21:16.077160"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:21:16.117909"], ["updated_at", "2016-03-05 04:21:16.117909"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (2.8ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:21:16.158287"], ["updated_at", "2016-03-05 04:21:16.158287"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:21:16.187742"], ["updated_at", "2016-03-05 04:21:16.187742"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"  [["created_at", "2016-03-05 04:21:25.105119"], ["updated_at", "2016-03-05 04:21:25.105119"]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2016-03-05 04:21:25.108803"], ["updated_at", "2016-03-05 04:21:25.108803"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.5ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:21:25.141922"], ["updated_at", "2016-03-05 04:21:25.141922"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:21:25.166359"], ["updated_at", "2016-03-05 04:21:25.166359"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:21:25.198894"], ["updated_at", "2016-03-05 04:21:25.198894"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2016-03-05 04:21:25.200466"], ["updated_at", "2016-03-05 04:21:25.200466"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:21:25.239019"], ["updated_at", "2016-03-05 04:21:25.239019"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:21:25.281797"], ["updated_at", "2016-03-05 04:21:25.281797"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:21:25.313910"], ["updated_at", "2016-03-05 04:21:25.313910"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:21:25.350818"], ["updated_at", "2016-03-05 04:21:25.350818"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:21:25.383514"], ["updated_at", "2016-03-05 04:21:25.383514"]]
+  [1m[36m (7.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2016-03-05 04:21:31.839391"], ["updated_at", "2016-03-05 04:21:31.839391"]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"  [["created_at", "2016-03-05 04:21:31.842804"], ["updated_at", "2016-03-05 04:21:31.842804"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:21:31.877165"], ["updated_at", "2016-03-05 04:21:31.877165"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:21:31.900505"], ["updated_at", "2016-03-05 04:21:31.900505"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:21:31.933512"], ["updated_at", "2016-03-05 04:21:31.933512"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"  [["created_at", "2016-03-05 04:21:31.935109"], ["updated_at", "2016-03-05 04:21:31.935109"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (1.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:21:31.974331"], ["updated_at", "2016-03-05 04:21:31.974331"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:21:32.016556"], ["updated_at", "2016-03-05 04:21:32.016556"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:21:32.048112"], ["updated_at", "2016-03-05 04:21:32.048112"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:21:32.084541"], ["updated_at", "2016-03-05 04:21:32.084541"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:21:32.117748"], ["updated_at", "2016-03-05 04:21:32.117748"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"  [["created_at", "2016-03-05 04:21:47.384357"], ["updated_at", "2016-03-05 04:21:47.384357"]]
+  [1m[36m (6.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2016-03-05 04:21:47.393025"], ["updated_at", "2016-03-05 04:21:47.393025"]]
+  [1m[35m (6.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:21:47.421149"], ["updated_at", "2016-03-05 04:21:47.421149"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:21:47.441207"], ["updated_at", "2016-03-05 04:21:47.441207"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.9ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:21:47.484410"], ["updated_at", "2016-03-05 04:21:47.484410"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2016-03-05 04:21:47.486530"], ["updated_at", "2016-03-05 04:21:47.486530"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:21:47.515372"], ["updated_at", "2016-03-05 04:21:47.515372"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:21:47.552122"], ["updated_at", "2016-03-05 04:21:47.552122"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:21:47.595195"], ["updated_at", "2016-03-05 04:21:47.595195"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:21:47.629724"], ["updated_at", "2016-03-05 04:21:47.629724"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:21:47.662781"], ["updated_at", "2016-03-05 04:21:47.662781"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2016-03-05 04:22:02.446045"], ["updated_at", "2016-03-05 04:22:02.446045"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"  [["created_at", "2016-03-05 04:22:02.449792"], ["updated_at", "2016-03-05 04:22:02.449792"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:22:02.485527"], ["updated_at", "2016-03-05 04:22:02.485527"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:22:02.502998"], ["updated_at", "2016-03-05 04:22:02.502998"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:22:02.540274"], ["updated_at", "2016-03-05 04:22:02.540274"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"  [["created_at", "2016-03-05 04:22:02.541813"], ["updated_at", "2016-03-05 04:22:02.541813"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:22:02.578259"], ["updated_at", "2016-03-05 04:22:02.578259"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:22:02.614094"], ["updated_at", "2016-03-05 04:22:02.614094"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:22:02.654743"], ["updated_at", "2016-03-05 04:22:02.654743"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (2.8ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:22:02.697383"], ["updated_at", "2016-03-05 04:22:02.697383"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:22:02.724410"], ["updated_at", "2016-03-05 04:22:02.724410"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"  [["created_at", "2016-03-05 04:22:19.973146"], ["updated_at", "2016-03-05 04:22:19.973146"]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2016-03-05 04:22:19.975194"], ["updated_at", "2016-03-05 04:22:19.975194"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:22:20.006102"], ["updated_at", "2016-03-05 04:22:20.006102"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:22:20.030818"], ["updated_at", "2016-03-05 04:22:20.030818"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:22:20.063519"], ["updated_at", "2016-03-05 04:22:20.063519"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "readings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2016-03-05 04:22:20.065967"], ["updated_at", "2016-03-05 04:22:20.065967"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:22:20.100287"], ["updated_at", "2016-03-05 04:22:20.100287"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:22:20.141079"], ["updated_at", "2016-03-05 04:22:20.141079"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:22:20.183597"], ["updated_at", "2016-03-05 04:22:20.183597"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:22:20.219249"], ["updated_at", "2016-03-05 04:22:20.219249"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:22:20.252124"], ["updated_at", "2016-03-05 04:22:20.252124"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[36mReading Load (4.1ms)[0m  [1mSELECT "readings".* FROM "readings"[0m
+  [1m[35mReading Load (0.8ms)[0m  SELECT "readings".* FROM "readings"
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 1]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 2]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 3]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 4]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 5]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 6]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 7]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 8]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 9]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 10]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 11]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 12]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 13]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 14]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 15]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 16]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 17]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 18]]
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 19]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 20]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 21]]
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 22]]
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 23]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 24]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 25]]
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 26]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 27]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 28]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 29]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 30]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 31]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 32]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 33]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 34]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 35]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 36]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 37]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 38]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 39]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 40]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 41]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 42]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 43]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 44]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (152.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 45]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 46]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 47]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 48]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 49]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 50]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 51]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 52]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 53]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 54]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 55]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 56]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 57]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 58]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 59]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 60]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 61]]
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 62]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 63]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 64]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 65]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 66]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 67]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 68]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 69]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 70]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 71]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 72]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 73]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 74]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 75]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 76]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 77]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 78]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 79]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 80]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 81]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 82]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 83]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 84]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 85]]
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 86]]
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 87]]
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 88]]
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 89]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 90]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 91]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 92]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 93]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 94]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 95]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 96]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 97]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 98]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 99]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 100]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 101]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 102]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 103]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 104]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 105]]
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 106]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 107]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 108]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 109]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 110]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 111]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 112]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 113]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 114]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 115]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 116]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 117]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 118]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 119]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 120]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 121]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mReading Load (0.4ms)[0m  SELECT "readings".* FROM "readings"
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:26:13.125998"], ["updated_at", "2016-03-05 04:26:13.125998"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:26:13.129849"], ["updated_at", "2016-03-05 04:26:13.129849"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:26:13.131198"], ["updated_at", "2016-03-05 04:26:13.131198"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:26:13.132375"], ["updated_at", "2016-03-05 04:26:13.132375"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:26:13.133676"], ["updated_at", "2016-03-05 04:26:13.133676"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:26:13.135032"], ["updated_at", "2016-03-05 04:26:13.135032"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:26:13.136259"], ["updated_at", "2016-03-05 04:26:13.136259"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:26:13.137437"], ["updated_at", "2016-03-05 04:26:13.137437"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:26:13.138657"], ["updated_at", "2016-03-05 04:26:13.138657"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 04:26:13.170485"], ["updated_at", "2016-03-05 04:26:13.170485"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 04:26:13.198226"], ["updated_at", "2016-03-05 04:26:13.198226"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[36mReading Load (0.6ms)[0m  [1mSELECT  "readings".* FROM "readings"  ORDER BY "readings"."id" ASC LIMIT 1[0m
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "readings"[0m
+  [1m[35mReading Load (0.6ms)[0m  SELECT "readings".* FROM "readings"
+  [1m[36mReading Load (0.6ms)[0m  [1mSELECT  "readings".* FROM "readings"  ORDER BY "readings"."id" ASC LIMIT 1[0m
+  [1m[35mReading Load (0.4ms)[0m  SELECT  "readings".* FROM "readings"  ORDER BY "readings"."id" DESC LIMIT 1
+  [1m[36mReading Load (0.6ms)[0m  [1mSELECT  "readings".* FROM "readings"  ORDER BY "readings"."id" ASC LIMIT 1[0m
+  [1m[36mReading Load (0.5ms)[0m  [1mSELECT  "readings".* FROM "readings"  ORDER BY "readings"."id" DESC LIMIT 1[0m
+  [1m[35mReading Load (0.6ms)[0m  SELECT  "readings".* FROM "readings"  ORDER BY "readings"."id" DESC LIMIT 1
+  [1m[36mReading Load (0.6ms)[0m  [1mSELECT "readings".* FROM "readings"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 122]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 123]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 124]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 125]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 126]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 127]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 128]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 129]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 130]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 131]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 132]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "readings"[0m
+  [1m[36mReading Load (1.8ms)[0m  [1mSELECT "readings".* FROM "readings"[0m
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.0], ["created_at", "2016-03-05 05:06:07.143412"], ["updated_at", "2016-03-05 05:06:07.143412"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.0], ["created_at", "2016-03-05 05:06:24.607394"], ["updated_at", "2016-03-05 05:06:24.607394"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.515599], ["created_at", "2016-03-05 05:09:35.323114"], ["updated_at", "2016-03-05 05:09:35.323114"]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.512389], ["created_at", "2016-03-05 05:09:44.898930"], ["updated_at", "2016-03-05 05:09:44.898930"]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.6ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 0.511125], ["created_at", "2016-03-05 05:09:54.275498"], ["updated_at", "2016-03-05 05:09:54.275498"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 0.510736], ["created_at", "2016-03-05 05:10:04.552724"], ["updated_at", "2016-03-05 05:10:04.552724"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36mReading Load (0.4ms)[0m  [1mSELECT "readings".* FROM "readings"[0m
+  [1m[36mReading Load (0.4ms)[0m  [1mSELECT "readings".* FROM "readings"[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "readings"
+  [1m[36mReading Load (0.6ms)[0m  [1mSELECT "readings".* FROM "readings"[0m
+  [1m[36mReading Load (0.4ms)[0m  [1mSELECT "readings".* FROM "readings"[0m
+  [1m[35mReading Load (0.6ms)[0m  SELECT "readings".* FROM "readings"
+  [1m[36mReading Load (0.5ms)[0m  [1mSELECT "readings".* FROM "readings"[0m
+  [1m[35mReading Load (0.6ms)[0m  SELECT "readings".* FROM "readings"
+  [1m[36mReading Load (0.6ms)[0m  [1mSELECT "readings".* FROM "readings"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 133]]
+  [1m[35m (6.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 134]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 135]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 136]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "readings" WHERE "readings"."id" = $1[0m  [["id", 137]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "readings" WHERE "readings"."id" = $1  [["id", 138]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 107.700103], ["created_at", "2016-03-05 05:24:37.141959"], ["updated_at", "2016-03-05 05:24:37.141959"]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 106.727462], ["created_at", "2016-03-05 05:24:48.658696"], ["updated_at", "2016-03-05 05:24:48.658696"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["raw", 106.38298], ["created_at", "2016-03-05 05:25:00.476546"], ["updated_at", "2016-03-05 05:25:00.476546"]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "readings" ("raw", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["raw", 106.443763], ["created_at", "2016-03-05 05:25:14.739109"], ["updated_at", "2016-03-05 05:25:14.739109"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mReading Load (0.4ms)[0m  [1mSELECT "readings".* FROM "readings"[0m
+  [1m[35mReading Load (0.8ms)[0m  SELECT "readings".* FROM "readings"
