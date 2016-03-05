@@ -33,6 +33,21 @@ class Reading < ActiveRecord::Base
     "KWatts: #{kwatts}\r\n"
   end
 
+  def cost
+    kwatts * 3.833
+  end
+
+  def to_json
+    {
+      voltage: VOLTAGE,
+      sensor: raw,
+      amper: amper,
+      watts: watts.to_s[0..3],
+      kwatts: kwatts.to_s[0..3],
+      cost: cost.to_s[0..3]
+    }.to_json
+  end
+
   def self.print_all
     all.each do |reading|
       puts reading.to_s

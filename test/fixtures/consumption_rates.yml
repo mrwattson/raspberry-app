@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  min_contracted_power: 
+  max_contracted_power: 
+  min: 
+  max: 
+  kwatt_cost: 1.5
+
+two:
+  min_contracted_power: 
+  max_contracted_power: 
+  min: 
+  max: 
+  kwatt_cost: 1.5

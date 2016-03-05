@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  min_contracted_power: 
+  max_contracted_power: 
+  contracted_power_extra_cost: 1.5
+  fixed_monthly_cost: 1.5
+  max_consumption_for_special_fixed_monthly_cost: 
+
+two:
+  name: MyString
+  min_contracted_power: 
+  max_contracted_power: 
+  contracted_power_extra_cost: 1.5
+  fixed_monthly_cost: 1.5
+  max_consumption_for_special_fixed_monthly_cost: 

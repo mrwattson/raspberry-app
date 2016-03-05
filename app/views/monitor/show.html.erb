@@ -1,2 +1,20 @@
-<h1>Monitor#show</h1>
-<p>Find me in app/views/monitor/show.html.erb</p>
+<ul>
+  <li><span class='watts'></span> <span class='watts-label'>watts</span></li>
+  <li>
+    <span class='cash-sign'>$</span><span class='cost'></span><span class='hour'>/hora</span>
+  </li>
+</ul>
+<script type='text/javascript'>
+  function reloadReading() {
+    $.get('monitor/show.json', function(data) {
+      $( ".watts" ).html(data['watts']);
+      $( ".cost" ).html(data['cost']);
+      setTimeout(function() { reloadReading() }, 1000)
+      console.log('refreshed')
+    });
+  }
+
+  $(document).ready(function(){
+    reloadReading();
+  })
+</script>

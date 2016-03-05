@@ -11,15 +11,52 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160305040119) do
+ActiveRecord::Schema.define(version: 20160305071428) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "consumption_rates", force: :cascade do |t|
+    t.integer  "min_contracted_power"
+    t.integer  "max_contracted_power"
+    t.integer  "min"
+    t.integer  "max"
+    t.float    "kwatt_cost"
+    t.datetime "created_at",           null: false
+    t.datetime "updated_at",           null: false
+    t.integer  "plan_id"
+  end
+
+  add_index "consumption_rates", ["plan_id"], name: "index_consumption_rates_on_plan_id", using: :btree
+
+  create_table "plans", force: :cascade do |t|
+    t.string   "name"
+    t.integer  "min_contracted_power"
+    t.integer  "max_contracted_power"
+    t.float    "contracted_power_extra_cost"
+    t.float    "fixed_monthly_cost"
+    t.integer  "max_consumption_for_special_fixed_monthly_cost"
+    t.datetime "created_at",                                     null: false
+    t.datetime "updated_at",                                     null: false
+  end
 
   create_table "readings", force: :cascade do |t|
     t.float    "raw"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+
+  create_table "time_ranges", force: :cascade do |t|
+    t.string   "description"
+    t.boolean  "summer_time"
+    t.integer  "start_hour"
+    t.integer  "end_hour"
+    t.float    "kwatt_cost"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+    t.integer  "plan_id"
+  end
+
+  add_index "time_ranges", ["plan_id"], name: "index_time_ranges_on_plan_id", using: :btree
 
 end
