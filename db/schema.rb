@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160305071428) do
+ActiveRecord::Schema.define(version: 20160313234332) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -42,9 +42,14 @@ ActiveRecord::Schema.define(version: 20160305071428) do
 
   create_table "readings", force: :cascade do |t|
     t.float    "raw"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",                null: false
+    t.datetime "updated_at",                null: false
+    t.string   "device_id"
+    t.integer  "request_time"
+    t.integer  "device_reading_created_at"
   end
+
+  add_index "readings", ["device_id"], name: "index_readings_on_device_id", using: :btree
 
   create_table "time_ranges", force: :cascade do |t|
     t.string   "description"
