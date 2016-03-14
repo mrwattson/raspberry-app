@@ -1,5 +1,5 @@
 class Reading < ActiveRecord::Base
-  S_RATIO = 31.02
+  S_RATIO = 36.25
   VOLTAGE = 230
 
   def cad_value
