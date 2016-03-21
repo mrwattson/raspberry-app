@@ -15,6 +15,7 @@ gem 'rails_12factor'
 
 group :development, :test do
   gem 'byebug'
+  gem 'timecop'
 end
 
 group :development do

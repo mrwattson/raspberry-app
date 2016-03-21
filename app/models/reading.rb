@@ -1,4 +1,6 @@
 class Reading < ActiveRecord::Base
+  attr_accessor :created_at
+
   S_RATIO = 36.25
   VOLTAGE = 230
 
@@ -51,6 +53,22 @@ class Reading < ActiveRecord::Base
   def self.print_all
     all.each do |reading|
       puts reading.to_s
+    end
+  end
+
+  def self.hourly_averages(day)
+    select("DATE_PART('hour', created_at) as created_hour, AVG(raw) as raw_average")
+    .where('created_at > ? AND created_at < ?',
+      Time.now.change(hour: 0, min: 0, seconds: 0) - 1.second,
+      Time.now.change(hour: 23, min: 59, seconds: 59)
+    )
+    .group('created_hour')
+    .order('created_hour asc').map do |result|
+      {
+        hour: result.created_hour,
+        raw_average: result.raw_average,
+        watts: (VOLTAGE * (result.raw_average * (S_RATIO/1000)))
+      }
     end
   end
 end

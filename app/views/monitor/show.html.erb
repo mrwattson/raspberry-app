@@ -11,5 +11,30 @@
         </div>
       </div>
     </div>
+
+    <% @reading.costs.each do |cost| %>
+      <div class="pure-u-1 pure-u-md-1-6">
+        <div class="pricing-table pricing-table-biz pricing-table-selected">
+          <div class="pricing-table-header">
+            <h2><%= cost[:name] %></h2>
+
+            <span class="pricing-table-price">
+              $<%= cost[:calculated_kwatts_cost] %><span>per hour</span>
+            </span>
+
+            <ul class="pricing-table-list">
+              <% if !cost[:min].blank? %>
+                <li>Carga minima <%= cost[:min] %> kW</li>
+                <li>Carga maxima <%= cost[:max] == 99999 ? '+'  : cost[:max] %> kW</li>
+              <% end %>
+              <% if !cost[:start_hour].blank? %>
+                <li>Desde <%= cost[:start_hour] %>:00</li>
+                <li>Hasta <%= cost[:end_hour] %>:00</li>
+              <% end %>
+            </ul>
+          </div>
+        </div>
+      </div>
+    <% end %>
   </div> <!-- end pricing-tables -->
 </div>

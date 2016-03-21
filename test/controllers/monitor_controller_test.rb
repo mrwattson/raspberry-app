@@ -6,4 +6,9 @@ class MonitorControllerTest < ActionController::TestCase
     assert_response :success
   end
 
+
+  test "should get footprint" do
+    get :footprint
+    assert_response :success
+  end
 end

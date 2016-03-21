@@ -9,7 +9,7 @@ class MonitorController < ApplicationController
   end
 
   def footprint
-    @hourly_averages = Reading.hourly_averages
+    @hourly_averages = Reading.hourly_averages(Date.today)
 
     respond_to do |format|
       format.json { render json: @hourly_averages.to_json }
